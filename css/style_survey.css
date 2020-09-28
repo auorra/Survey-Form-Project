@@ -1,0 +1,67 @@
+
+body, html {
+  background: url(bgimage2.jpg) no-repeat center center fixed;
+  height: 100%; 
+  background-size: cover;
+  
+}
+
+.container {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  display: block;
+  margin-top: 0;
+  margin-left: 55%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+#title {
+  font-family: "Libre Baskerville", serif;
+  color: white
+}
+
+#description {
+  font-family: "libre Baskerville", serif;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.form-row {
+  padding: 20px;
+}
+
+.anime {
+  width: 150px;
+  transition: width .35s ease-in-out;
+}
+
+.anime:focus {
+  width: 250px;
+}
+
+
+span {
+  font-size: 15px;
+  font-style: italic;
+}
+
+#submit {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: #EE4C7C;
+  border-radius: 5px;
+  border-style: outset;
+}
+
+#submit:hover {
+  background-color: #ec8daa
+}
+
+textarea {
+  border-radius: 5px;
+  border-style: outset;
+}
+
