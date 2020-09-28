@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" type="text/css" href="css/style_survey.css">
+    
+    <title>Customer Feedback Form</title>
+
+  </head>
+
+  <body>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+    <div class="container">
+    
+      <div>
+        <h1 id="title">BossBabes Feedback Form</h1>
+          <p id="description">Thank you for taking the time to help us improve our services to you!</p>
+      </div>
+      
+      <form id="survey-form">
+        <div class="form-row">
+          <label for="name" id="name-label">Babe's Name</label><br>
+          <input class="anime" id="name" type="text" name="name" placeholder="Enter Your Name" required><br>
+        </div>
+
+        <div class="form-row">
+          <label for="email" id="email-label">Babe's Email</label><br>
+          <input class="anime" id="email" type="email" name="email" placeholder="Enter Your Email" required><br>
+        </div>
+
+        <div class="form-row">
+          <label for="number" id="number-label">How many times have you visited us in the past 3 months?</label><br>
+          <input class="anime" id="number" type="number" name="number" placeholder="Enter the Number of Times You Visit Us" min="1" max="99"><br>
+        </div>
+
+        <div class="form-row">
+           <label for="service">What was the last service we provided you?</label><br>
+            <select id="dropdown" name="service">
+              <option disabled selected value>Select the last service we provided you</option>
+              <option value="make-up">Full Face Make-up</option>
+              <option value="eyebrow-wax">Eyebrow Wax</option>
+              <option value="eyelash-extension">Eyelash Extensions</option>
+              <option value="haircut-style">Haircut/Hairstyle</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+          <p>How likely would you recommend us?</p>
+            <input type="radio" name="user-recommend" value="most-likely"> 
+            <label for="user-recommend">Most-likely</label><br>
+
+            <input type="radio" name="user-recommend" value="likely">
+            <label for="user-recommend">Likely</label><br>
+
+            <input type="radio" name="user-recommend" value="maybe">
+            <Label for="user-recommend">Maybe</Label><br>
+
+            <input type="radio" name="user-recommend" value="unlikely">
+            <label for="user-recommend">Unlikely</label><br>
+        </div>
+
+        <div class="form-row">
+          <p>What would you like us to improve on? <span>(check all that apply)</span></p>
+          <input type="checkbox" name="choice1" value="customer-service">
+          <label for="choice1">Customer-Service</label><br>
+
+          <input type="checkbox" name="choice2" value="make-up">
+          <label for="choice2">Make-up Station</label><br>
+
+          <input type="checkbox" name="choice3" value="eyebrow-station">
+          <label for="choice3">Eyebrow Station</label><br>
+
+          <input type="checkbox" name="choice4" value="hair-station">
+          <label for="choice4">Hair-Station</label><br>
+        </div>
+      
+        <div class="form-row">
+          <label for="comment">Tell us more about your experience!</label><br>
+          <textarea id="comment" name="comment" placeholder="Enter your comments here..." rows="4" cols="40"></textarea>
+        </div>
+
+        <div>
+          <input type="submit" id="submit">
+        </div>
+    
+      </form>
+    </div>
+
+  </body>
+</html>
