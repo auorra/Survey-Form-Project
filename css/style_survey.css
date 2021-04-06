@@ -47,6 +47,10 @@ span {
   font-style: italic;
 }
 
+input {
+  outline: none;
+}
+
 #submit {
   width: 150px;
   height: 30px;
